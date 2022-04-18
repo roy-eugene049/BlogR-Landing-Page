@@ -1,0 +1,43 @@
+.btn {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    border-radius: 2.5rem;
+    padding-top: 0.6875rem;
+    padding-bottom: 0.6875rem;
+    white-space: nowrap;
+    text-decoration: none;
+    border-color: transparent;
+
+    &:hover,
+    &:focus {
+        border-color: transparent;
+    }
+}
+
+.btn-link {
+    font-size: 1.125rem;
+    color: $headings;
+}
+
+.btn-white {
+    color: $cta-text;
+    background-color: $white;
+
+    &:hover,
+    &:focus {
+        color: $white;
+        background-color: $cta-hover-bg;
+    }
+}
+
+.btn-ghost {
+    color: $white;
+    border-color: $white;
+    background-color: transparent;
+
+    &:hover,
+    &:focus {
+        color: $cta-text;
+        background-color: $white;
+    }
+}
